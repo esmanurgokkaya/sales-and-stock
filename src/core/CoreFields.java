@@ -1,8 +1,8 @@
 package core;
 
 public class CoreFields {
-    private String userName = "postgres";
-    private String password =  "12345";
+    private String userName = "kullanici_adi";
+    private String password =  "kullanici_sifre";
     private String url = "jdbc:postgresql://localhost:5432/SatisveStok"; // link ekle
 
     public String getUserName() {
