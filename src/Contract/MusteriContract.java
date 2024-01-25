@@ -1,4 +1,4 @@
-package entities;
+package Contract;
 
 public class MusteriContract {
     private int id;

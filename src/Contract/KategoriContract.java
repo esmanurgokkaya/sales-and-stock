@@ -1,4 +1,4 @@
-package entities;
+package Contract;
 
 public class KategoriContract {
 
@@ -31,6 +31,6 @@ public class KategoriContract {
     }
 
     public  String toString(){
-        return id + " " + adi + " " + parentId ;
+        return adi; //id + " " + adi + " " + parentId ;
     }
 }

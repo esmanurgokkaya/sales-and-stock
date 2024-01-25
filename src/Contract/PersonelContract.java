@@ -1,4 +1,4 @@
-package entities;
+package Contract;
 
 public class PersonelContract {
     private int id;
@@ -34,6 +34,6 @@ public class PersonelContract {
 
     @Override
     public String toString() {
-        return id + " " + adiSoyadi + " " + email;
+        return  adiSoyadi ;
     }
 }

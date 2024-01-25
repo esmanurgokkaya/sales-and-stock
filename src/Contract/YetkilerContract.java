@@ -1,6 +1,6 @@
 package Contract;
 
-public class yetkiler {
+public class YetkilerContract {
     private int id;
     private String adi;
 
@@ -22,6 +22,6 @@ public class yetkiler {
 
     @Override
     public String toString() {
-        return " " + id + " " + adi;
+        return adi;
     }
 }

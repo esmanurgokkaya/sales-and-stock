@@ -1,4 +1,4 @@
-package entities;
+package Contract;
 
 
 import java.util.Date;
@@ -7,7 +7,7 @@ public class UrunlerContract {
     private int id;
     private  String adi;
     private int kategoriId; // ürünün hangi kategoride olduğunı belirtir
-    private Date tarih;
+    private String tarih;
     private float fiyat;
 
     public int getId() {
@@ -34,11 +34,11 @@ public class UrunlerContract {
         this.kategoriId = kategoriId;
     }
 
-    public Date getTarih() {
+    public String getTarih() {
         return tarih;
     }
 
-    public void setTarih(Date tarih) {
+    public void setTarih(String tarih) {
         this.tarih = tarih;
     }
 

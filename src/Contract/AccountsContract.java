@@ -1,4 +1,4 @@
-package entities;
+package Contract;
 
 public class AccountsContract {
     private int id;

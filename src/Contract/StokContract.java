@@ -1,4 +1,4 @@
-package entities;
+package Contract;
 
 import java.util.Date;
 
